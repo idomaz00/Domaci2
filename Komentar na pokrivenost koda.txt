@@ -1,0 +1,6 @@
+S obzirom da konstruktor odmah na poèetku provjerava ispravnost unesenih vrijednosti,
+default sluèaj u switch case-u u metodi koja raèuna i vraæa broj preostalih dana u mjesecu se 
+nikad neæe izvršiti stoga ga ne mogu ni testirati. 
+A zbog toga, kao i exeptiona, mi pokrivenost koda ne može biti 100%.
+Nisam htjela mijenjati logiku provjere unosa u konstruktoru, 
+niti zamijeniti switch case s if else naredbama jer mi je ovakav naèin pregledniji.
